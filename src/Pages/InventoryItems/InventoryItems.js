@@ -33,8 +33,8 @@ fetch(url)
             <div className='border w-50 mx-auto p-4 mt-3'>
             <img className='w-100 mb-3' src={inventory.img} alt="" />
             <h2>Name: {inventory.name}</h2>
-            <h3>ProductId: {inventory._id}</h3>
-            <h5>Description{inventory.description}</h5>
+            <h6>ProductId: {inventory._id}</h6>
+            <h5>Description: {inventory.description}</h5>
             <h3>Price: {inventory.price}</h3>
 
             <div>

@@ -1,4 +1,4 @@
-.services-size{
+.inventory-size{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -21,7 +21,7 @@
     width: 100%;
 }
 @media only screen and (max-width:576px){
-    .services-size{
+    .inventory-size{
         
         grid-template-columns: repeat(1, 1fr);
         /* grid-gap: 10px; */
@@ -30,7 +30,7 @@
 }
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-    .services-size{
+    .inventory-size{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 50px;
     }
