@@ -54,16 +54,7 @@ const Header = () => {
       </Navbar>
       
       </>
-        // <div className='nav-size '>
-        //     <h2 className="name text-primary">MY PHOTOSHOT</h2>
-        //     <div className='link-name'>
-        //     <Link className='m-4 text-set' to='/'>Home</Link>
-        //     <Link className='m-4 text-set' to='/checkout'>Checkout</Link>
-        //     <Link className='m-4 text-set' to='/about'>About</Link>
-        //     <Link className='m-4 text-set' to='/login'>Login</Link>
-        //     {/* <Link to='/signup'>SignUp</Link> */}
-        //     </div>
-        // </div>
+        
     );
 };
 
