@@ -1,0 +1,28 @@
+.border-set{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.set-text{
+    text-decoration: none;
+}
+.radius-set{
+    border-radius: 5px;
+    
+}
+
+.google-btn{
+    background-color: white;
+    border: 1px solid rgb(197, 190, 190);
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+.google-image{
+    width: 25px;
+    
+}
+.google-btn:hover{
+    background-color: rgb(223, 222, 222);
+}
+

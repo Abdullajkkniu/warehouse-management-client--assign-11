@@ -1,0 +1,26 @@
+.title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900
+}
+.border-size{
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.button-colors{
+    background-image: linear-gradient(rgb(245, 201, 119), rgb(230, 135, 47));
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color:white;
+
+}
+
+.button-colors:hover{
+    background-image: linear-gradient(rgb(224, 145, 71),rgb(228, 182, 96));
+}
+.set-login{
+    text-decoration: none;
+    
+}

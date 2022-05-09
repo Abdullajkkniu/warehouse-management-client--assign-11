@@ -1,0 +1,86 @@
+.background-set{
+    /* background-image: url(https://i.ibb.co/2hM6Q6M/banner.jpg); */
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    
+
+    
+}
+.text-setup{
+position:absolute;
+top: 100px;
+left: 80px;
+color:white;
+
+}
+.text-sizes{
+    font-size: 70px;
+}
+.p-size{
+    font-size: 20px;
+}
+
+.button-style{
+    border: 1px solid rgb(131, 114, 114);
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
+.button-style:hover{
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    box-shadow: 2px;
+}
+
+@media only screen and (max-width:576px){
+    .text-setup{
+        position:absolute;
+        top: 20px;
+        left: 0px;
+        color:white;
+        
+        }
+    .text-sizes{
+        
+        font-size: 30px;
+        
+    }
+    .p-size{
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .button-style{
+        border: 1px solid rgb(131, 114, 114);
+        background-color: transparent;
+        color: white;
+        padding: 3px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .text-setup{
+        position:absolute;
+        top: 20px;
+        left: 10px;
+        color:white;
+        
+        }
+    .text-sizes{
+        
+        font-size: 50px;
+        
+    }
+    .p-size{
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .button-style{
+        border: 1px solid rgb(131, 114, 114);
+        background-color: transparent;
+        color: white;
+        padding: 5px;
+    }
+}

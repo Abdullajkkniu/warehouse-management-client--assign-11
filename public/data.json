@@ -1,0 +1,15 @@
+[
+    {"name": "Pran-Rice", "price": "100", "description": "Pran rice is healthy food for everybody", "quantity":"50", "supplier":"Pran", "status":"available"  , "img":"https://i.ibb.co/dbjXWTy/pran-rice.png"},
+    {"name": "Teer-Atta", "price": "40", "description": "Teer atta helps peaple to maintain good health and better test.","quantity":"50", "supplier":"Teer", "status":"available", "img":"https://i.ibb.co/SJHV15q/teer-atta3.jpg"},
+    {"name": "Rupchanda-Sayabin-Oil", "price": "180", "description": "Pure rupchanda sayabin oil","quantity":"50", "supplier":"Rupchanda", "status":"available", "img":"https://i.ibb.co/W2VLXmM/rupchanda-oil2.jpg"},
+    {"name": "Pran-Mushur-Dal", "price": "150", "description": "Pran 100% deshi mushur dal","quantity":"50", "supplier":"Pran", "status":"available", "img":"https://i.ibb.co/q9YbY4f/pran-mushur-dal.webp"},
+    {"name": "Boshundhara-Muri", "price": "60", "description": "Boshundhara fresh and healthy muri","quantity":"50", "supplier":"Boshundhara", "status":"available", "img":"https://i.ibb.co/hHdDHQv/boshundhara-muri.jpg"},
+    {"name": "Boshundhara-A4-Paper", "price": "320", "description": "Most demanding boshundhara A4 paper","quantity":"50", "supplier":"boshundhara", "status":"available", "img":"https://i.ibb.co/xq0VSV6/boshundhara-a4-paper.jpg"},
+    {"name": "Boshundhara-Noodles", "price": "120", "description": "Boshundhara healthy noodles for everyone","quantity":"50", "supplier":"Boshundhara", "status":"available", "img":"https://i.ibb.co/bWhS591/boshundhara-noodles.jpg"},
+    {"name": "Pran-Masala", "price": "40", "description": "Pran hot masala for best housemaker","quantity":"50", "supplier":"Pran", "status":"available", "img":"https://i.ibb.co/K6grxzy/pran-masala.jpg"},
+    {"name": "Pran-Holud-guro", "price": "30", "description": "Pran pure holud guro","quantity":"50", "supplier":"Pran", "status":"available", "img":"https://i.ibb.co/qMkkSpR/pran-holud.jpg"},
+    {"name": "Pran-biriyani-masala", "price": "80", "description": "Pran biriyani masala for every people and every festival","quantity":"50", "supplier":"Pran", "status":"available", "img":"https://i.ibb.co/4gzz2YB/pran-biriyani-mosala.jpg"}
+    
+]
+
+
