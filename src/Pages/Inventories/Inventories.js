@@ -15,7 +15,7 @@ const Inventories = () => {
     return (
         <div>
 
-            <h1>this is inventory</h1>
+            <h1 className='text-center my-4 fw-bold '>Inventory</h1>
             <div className='container services-size'>
             {
                 inventories.slice(0,6).map(inventory=> <Inventory key={inventory._id} inventory={inventory}></Inventory> )

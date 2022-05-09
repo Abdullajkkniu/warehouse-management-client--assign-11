@@ -5,18 +5,21 @@ import { Link } from 'react-router-dom';
 import './Inventory.css';
 
 const Inventory = (props) => {
-    const {_id, name, img, description, price} = props.inventory;
+    const {_id, name, img, description, price,supplier,quantity, status} = props.inventory;
     const navigate = useNavigate();
     const navigateToInventoryDetail = id =>{
         navigate(`/inventoryitems/${id}`)
     }
     return (
-        <div className=' single-service mb-4 pb-5 text-center'>
+        <div className='border single-service mb-4 pb-5 text-center'>
             <img className='image-size' src={img} alt="" />
-            <h2 className='pt-2'>Type: {name}</h2>
-            <p>Description: {description}</p>
-            <h2 className='pb-2'>Only : {price}</h2>
-            <button onClick={()=>navigateToInventoryDetail(_id)}>
+            <h2 className='pt-2'>{name}</h2>
+            <h5>Supplier : {supplier}</h5>
+            <h5>Description : {description}</h5>
+            <h5>Status: {status}</h5>
+            <h5>quantity: {quantity}</h5>
+            <h3 className='pb-2'>Only : {price}</h3>
+            <button className='btn btn-success' onClick={()=>navigateToInventoryDetail(_id)}>
                 Update
             </button>
 
