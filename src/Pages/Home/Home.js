@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Inventories></Inventories>
-            <Link to="/manageitems" className='set-text btn btn-primary d-block w-25 mx-auto p-3 mb-4'>Manage Inventories</Link>
+            <Link to="/manageitems" className='fw-bold set-text btn btn-danger d-block w-25 mx-auto p-3 mb-4'>Manage Inventories</Link>
             
             <Fast></Fast>
             <NewBranch></NewBranch>
