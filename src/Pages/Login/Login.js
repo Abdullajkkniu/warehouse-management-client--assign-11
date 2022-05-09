@@ -85,7 +85,7 @@ const Login = () => {
     return (
         
         <div>
-            <h2 className='title mt-4 text-center'>My-Warehouse</h2>
+            <h2 className='title mt-4 text-center'>GlobX-Warehouse</h2>
             <div className='bg-dark text-white border-set container w-25 mt-2 pb-4'>
             
             <div>

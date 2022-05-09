@@ -75,7 +75,7 @@ const SignUp = () => {
         
     return (
         <div className=' container w-25 p-3'>
-            <h2 className='title text-center'>My-Warehouse</h2>
+            <h2 className='title text-center'>GlobX-Warehouse</h2>
             <div className='bg-dark text-white border-size p-3'>
             <h3 className='p-2'>Create Account</h3>
             <form onSubmit={handleSignUp}>
